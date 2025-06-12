@@ -1,18 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jordanmoret <jordanmoret@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/12 23:46:57 by jordanmoret       #+#    #+#             */
-/*   Updated: 2025/06/12 23:48:26 by jordanmoret      ###   ########.fr       */
+/*   Created: 2025/06/13 00:20:24 by jordanmoret       #+#    #+#             */
+/*   Updated: 2025/06/13 00:20:25 by jordanmoret      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
